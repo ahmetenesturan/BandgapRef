@@ -1,7 +1,7 @@
 # BandgapRef
 Low Voltage Bandgap Reference Circuit and Wideswing Current Mirror in Skywater 130nm Technology
 
-This project includes two Wideswing Current Mirrors (PMOS and NMOS) and a Bandgap Reference Generator with Constant to Absolute Temperature (CTAT) voltage and current outputs. Users can scale the tail resistor or current mirror width/length to adjust the output voltage or current, respectively.
+This project includes two Wideswing Current Mirrors (PMOS and NMOS) and a Low Voltage Bandgap Reference Circuit with Constant to Absolute Temperature (CTAT) voltage and current outputs. Users can scale the tail resistor or current mirror width/length to adjust the output voltage or current, respectively.
 
 ### Bandgap Reference
 ![Bandgap Reference Schematic](images/bandgapref.png)
@@ -23,5 +23,3 @@ This project includes two Wideswing Current Mirrors (PMOS and NMOS) and a Bandga
 | Dynamic Range of PMOS Current Mirror      | 0 - 1.5 V                     |
 | Power Consumption                        | 140 µW                        |
 | Circuit Start-up                         | 3 µs                          |
-
-# BandgapRef
