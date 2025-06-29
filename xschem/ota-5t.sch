@@ -1,4 +1,4 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.7 file_version=1.2}
 G {}
 K {}
 V {}
@@ -73,16 +73,9 @@ C {devices/iopin.sym} 100 100 0 1 {name=p4 lab=VDD}
 C {devices/iopin.sym} 110 500 2 0 {name=p5 lab=VSS}
 C {devices/ipin.sym} 120 360 1 0 {name=p6 lab=Ib}
 C {sky130_fd_pr/nfet_01v8.sym} 200 310 0 0 {name=M4
-L=0.5
+L=1
 W=20
-nf=4
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
+nf=1 mult=1
 model=nfet_01v8
 spiceprefix=X
 }
@@ -90,14 +83,7 @@ C {devices/lab_wire.sym} 230 310 0 1 {name=p7 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/pfet_01v8.sym} 360 170 0 0 {name=M1
 L=1
 W=2
-nf=2
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
+nf=1 mult=1
 model=pfet_01v8
 spiceprefix=X
 }
@@ -105,29 +91,15 @@ C {devices/lab_wire.sym} 390 170 0 1 {name=p9 sig_type=std_logic lab=VDD}
 C {sky130_fd_pr/pfet_01v8.sym} 240 170 0 1 {name=M2
 L=1
 W=2
-nf=2
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
+nf=1 mult=1
 model=pfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 210 170 0 0 {name=p10 sig_type=std_logic lab=VDD}
 C {sky130_fd_pr/nfet_01v8.sym} 400 310 0 1 {name=M3
-L=0.5
+L=1
 W=20
-nf=4
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
+nf=1 mult=1
 model=nfet_01v8
 spiceprefix=X
 }
@@ -135,14 +107,7 @@ C {devices/lab_wire.sym} 370 310 0 0 {name=p11 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/nfet_01v8.sym} 280 430 0 0 {name=M5
 L=1
 W=2
-nf=2
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
+nf=1 mult=1
 model=nfet_01v8
 spiceprefix=X
 }
@@ -150,14 +115,7 @@ C {devices/lab_wire.sym} 310 430 0 1 {name=p12 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/nfet_01v8.sym} 140 430 0 1 {name=M6
 L=1
 W=2
-nf=2
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
+nf=1 mult=1
 model=nfet_01v8
 spiceprefix=X
 }

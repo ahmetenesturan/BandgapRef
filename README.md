@@ -24,3 +24,4 @@ This project includes two Wideswing Current Mirrors (PMOS and NMOS) and a Bandga
 | Power Consumption                        | 140 µW                        |
 | Circuit Start-up                         | 3 µs                          |
 
+# BandgapRef
